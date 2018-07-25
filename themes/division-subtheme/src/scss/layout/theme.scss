@@ -1,0 +1,9 @@
+.homepage__header {
+	& .header__container {
+		background: $black;
+		@include breakpoint(medium) {
+			background: $black;
+		}
+	}
+
+}
