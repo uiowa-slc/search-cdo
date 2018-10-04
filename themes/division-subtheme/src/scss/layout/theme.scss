@@ -7,3 +7,14 @@
 	}
 
 }
+
+.header {
+	&__site-title {
+		font-size: rem-calc(22);
+		font-size: calc(22px + 14 * ((100vw - 320px) / (1024 - 320)));
+		text-transform: none;
+		@include breakpoint(large) {
+			font-size: rem-calc(36);
+		}
+	}
+}
